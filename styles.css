@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+  font-family: Courier;
+}
+
+canvas {
+  outline-style: dotted;
+  outline-color: white;
+}
+
+h2 {
+  display: inline-block;
+}
+
+p {
+  display: inline-block;
+}
+
+.title {
+  color: green;
+}
+
+.stats {
+  height: inherit;
+  width: 100%;
+  color: white;
+}
+
+.score {
+  float: left;
+  width: 150px;
+}
+
+.lives {
+  float: left;
+  width: 275px;
+}
+
+.game {
+  float: left;
+  color: white;
+}
+
+.options {
+  color: white;
+  float: left;
+  margin-left: 25px;
+}
+
+.wtp {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#h2p {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 135px;
+  color: white;
+  background-color: black;
+}
